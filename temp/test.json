@@ -1,0 +1,20 @@
+{
+  "result": 0,
+  "data": {
+    "nickname": "慕粉1700361855",
+    "mp": "3,945",
+    "img": "//img1.mukewang.com/585cfc26000136f001000100-100-100.jpg",
+    "uid": "4429305",
+    "credit": 0,
+    "last_learning": {
+      "course_name": "node+mongodb 建站攻略（一期）",
+      "last_chapter_media": "1-1",
+      "media_name": "项目前期准备",
+      "course_id": "75",
+      "media_id": "1084",
+      "url": "//www.imooc.com/video/1084"
+    },
+    "coupons": "0"
+  },
+  "msg": "成功"
+}
