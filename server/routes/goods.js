@@ -18,11 +18,11 @@ mongoose.connection.on('disconnected', () => {
 })
 
 router.get('/', (req, res, next) => {
-  let page = parseInt(req.param('page'))
-  let pageSize = parseInt(req.param('pageSize'))
-  let sort = parseInt(req.param('sort'))
+  let page = parseInt(req.query.page)
+  let pageSize = parseInt(req.query.pageSize)
+  let sort = parseInt(req.query.sort)
   let skip = (page - 1) * pageSize
-  let priceLevel = req.param('priceLevel')
+  let priceLevel = req.query.priceLevel
   let priceGt = undefined
   let priceLt = undefined
   let params = {}
